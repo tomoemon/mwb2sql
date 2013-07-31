@@ -9,7 +9,7 @@ fi
 export INPUT=$(cd $(dirname $1);pwd)/$(basename $1)
 export OUTPUT=$(cd $(dirname $2);pwd)/$(basename $2)
 
-DISPLAY=:1 "$MYSQL_WORKBENCH" \
+"$MYSQL_WORKBENCH" \
   --open $INPUT \
   --run-python "
 import os
