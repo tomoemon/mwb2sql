@@ -1,7 +1,7 @@
 mwb2sql
 =======
 
-What is this ?
+What is this?
 ----------------
 
 mwb2sql is a shell command utility to produce sql file from mwb file (file format of MySQL Workbench).
