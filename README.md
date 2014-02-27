@@ -6,14 +6,14 @@ usage
 
 ### Windows
 
-    mwb2sql.bat test.mwb a.sql
+    mwb2sql.bat sample/test.mwb a.sql
 
 ### Linux (with GUI)
 
-    sh mwb2sql.sh test.mwb a.sql
+    sh mwb2sql.sh sample/test.mwb a.sql
 
 ### Linux (without GUI)
 
     Xvfb :1 &
-    DISPLAY=:1 sh mwb2sql.sh test.mwb a.sql
+    DISPLAY=:1 sh mwb2sql.sh sample/test.mwb a.sql
 
