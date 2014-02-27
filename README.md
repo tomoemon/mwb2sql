@@ -10,15 +10,15 @@ mwb2sql is a shell command utility to produce sql file from mwb file (file forma
 Usage
 -------
 
-### Windows
+### on Windows
 
     mwb2sql.bat sample/test.mwb a.sql
 
-### Linux (with GUI)
+### on Linux (with GUI)
 
     sh mwb2sql.sh sample/test.mwb a.sql
 
-### Linux (without GUI)
+### on Linux (without GUI)
 
     Xvfb :1 &
     DISPLAY=:1 sh mwb2sql.sh sample/test.mwb a.sql
