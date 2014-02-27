@@ -18,6 +18,5 @@ from grt.modules import DbMySQLFE as fe
 c = grt.root.wb.doc.physicalModels[0].catalog
 fe.generateSQLCreateStatements(c, c.version, {})
 fe.createScriptForCatalogObjects(os.getenv('OUTPUT'), c, {})" \
-  --nologo \
   --quit-when-done
 
