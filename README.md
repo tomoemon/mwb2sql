@@ -28,5 +28,6 @@ Known Issues
 -------------
 
 * MySQL Workbench application always displays a window even if a script option is specified.
-* `generateSQLCreateStatements` function seems to have a option that control the behavior of dumping sql, but the option has no effect. (I can't find the way to enable the option)
+* `generateSQLCreateStatements` function seems to have a option that control the behavior of dumping sql, but the option has no effect. (I can't find the way to enable the option).  
+This has been reported to the MySQL team at: https://bugs.mysql.com/bug.php?id=84390 - if interested in a fix please create a bugs.mysql.com account and click the 'Affects me' button.
 
